@@ -15,11 +15,9 @@ jobs:
       # - run: node --version
       - run:
           name: Install dependencies
-          command: |
-            npm install -g pnpm
-            pnpm install 
+          command: npm install 
       - run: 
           name: Run tests
-          command: pnpm test
+          command: npm testg
 
       
